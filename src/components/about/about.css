@@ -1,0 +1,20 @@
+.about_us{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid rebeccapurple;
+    box-shadow: 0 0 10px rgba(0, 0, 0,0.3);
+}
+
+.about_us h2{
+    color: royalblue;
+    margin-bottom: 20px;
+    min-height: 1.5;
+
+}
+
+img{
+    width: 300px;
+    height: 100px;
+}

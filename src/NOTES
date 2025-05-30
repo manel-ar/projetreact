@@ -1,2 +1,16 @@
-on initialise le projet puis on supprime tt ce quon a pas besoin 
-react.fragment :pour rassembler des composents dans une seule balise 
+*on initialise le projet puis on supprime tt ce quon a pas besoin 
+*react.fragment :pour rassembler des composents dans une seule balise 
+USESTATE pour les  Composants de type function 
+*useeffect pour gerer les effets (sideffect:comment l'interface va etre apres le montage )
+*pour initialiser rfc, avec deafult rafce 
+*pour faire la liaison vers lapi : fetch("https://jsonplaceholder.org/posts")
+    .then((res)=>res.json())
+ *tt laison avec api on utilise useeffect 
+ cleanup function :fonction de nettoyage 
+ elle sexecute avant que leffet ne se reuxecute ou lorsque le composant se demonte(arreter)
+creer un nouveau repository puis dans code copier lurl puis aller dans le dossier dev-fullstack taper cmd puis :git clone lurl 
+puis faire cd le nom du projet (celui du repot ) puis faire :npx create-react-app@latest nom du projet
+ 
+ fair:git add .
+// git commit -m
+// git push 

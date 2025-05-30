@@ -1,21 +1,20 @@
 import React from 'react'
-
+import "./Home.css"
 function Home() {
+
     return (
         <React.Fragment>
-            <h2>les frameworks JS</h2>
+            <h2>FrameWork JS</h2>
             <ul>
                 <li>react</li>
-                <li>vuejs</li>
-                <li>angular</li>
+                <li>Angular</li>
+                <li>Vue</li>
+                <li>Next</li>
+                <li>Vite</li>
             </ul>
         </React.Fragment>
-
-
-
-    )
+    
+  )
 }
 
-export default Home
-
-
+export default Home;
